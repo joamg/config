@@ -1,5 +1,10 @@
-DOMAIN-SUFFIX, itunes.apple.com, AppStore
 DOMAIN-SUFFIX, apps.apple.com, AppStore
+DOMAIN-SUFFIX, itunes.apple.com, AppStore
 DOMAIN-SUFFIX, mzstatic.com, AppStore
-DOMAIN, itunes.apple.com, AppStore
+DOMAIN, p18-buy.itunes.apple.com, AppStore
+DOMAIN, p14-buy.itunes.apple.com, AppStore
+DOMAIN, identity.ess.apple.com, AppStore
+DOMAIN, stats.gc.apple.com, AppStore
+DOMAIN, ocsp.apple.com, AppStore
+DOMAIN, api.smoot.apple.com, AppStore
 DOMAIN, ppq.apple.com, AppStore
