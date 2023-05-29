@@ -1,0 +1,5 @@
+DOMAIN-SUFFIX, itunes.apple.com, AppStore
+DOMAIN-SUFFIX, apps.apple.com, AppStore
+DOMAIN-SUFFIX, mzstatic.com, AppStore
+DOMAIN, itunes.apple.com, AppStore
+DOMAIN, ppq.apple.com, AppStore
