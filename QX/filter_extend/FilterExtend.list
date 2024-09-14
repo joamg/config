@@ -1,0 +1,57 @@
+-host-suffix, ohmygpt.com, proxy
+host-suffix, api.translate.zvo.cn, direct
+ip6-cidr, ::/0, direct
+host-suffix, clashofclans.com, 日本
+host-suffix, supercell.com, 日本
+host-suffix, epg.112114.eu.org, direct
+host-suffix, aptvapp.com, direct
+host-suffix, chineseidcard.com, direct
+host-suffix, diyp.112114.xyz, direct
+host-suffix, sentry.io, reject
+host-suffix, live.goodiptv.club, direct
+host-suffix, bestvcdn.com.cn, direct
+host-suffix, catmjstudio.com, direct
+#网易易盾号码认证
+host, ye.dun.163yun.com, reject
+
+#中国移动
+host, config.cmpassport.com, reject
+host, www.cmpassport.com, reject
+host, wap.cmpassport.com, reject
+host, onekey1.cmpassport.com, reject
+host, log1.cmpassport.com, reject
+host, smsks1.cmpassport.com, reject
+host, verify.cmpassport.com, reject
+
+#中国联通
+host, opencloud.wostore.cn, reject
+host, auth.wosms.cn, reject
+host, id.mail.wo.cn, reject
+host, mdn.open.wo.cn, reject
+host, hmrz.wo.cn, reject
+host, nishub1.10010.com, reject
+host, enrichgw.10010.com, reject
+
+#中国电信
+host, id6.me, reject
+host, open.e.189.cn, reject
+
+#中国广电
+#host, Idk., reject
+host-suffix, c-ctrip.com, direct
+host-suffix, kuwo.cn, direct
+host, sdkapp.uve.weibo.com, direct
+host-suffix, u3.ucweb.com, reject
+host, amdc.m.taobao.com, direct
+host-suffix, logcg.com, direct
+host, epg.112114.xyz, direct
+host, live.v1.mk, direct
+host, xy.xyxyxy.ml, direct
+host-suffix, sonkwo.hk, direct
+host, amdc.m.taobao.com, reject
+host-suffix, fing.io, direct
+host-suffix, whatismyip.com, direct
+host, adashbc.ut.taobao.com, reject
+host-suffix, test-ipv6.com, direct
+host-suffix, zimuku.org, direct
+host-keyword, merlinblog, proxy
