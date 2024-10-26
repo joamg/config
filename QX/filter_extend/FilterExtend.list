@@ -1,16 +1,40 @@
--host-suffix, ohmygpt.com, proxy
-host-suffix, api.translate.zvo.cn, direct
+
+# > 一些比较容易忽视的分流
 ip6-cidr, ::/0, direct
-host-suffix, clashofclans.com, 日本
-host-suffix, supercell.com, 日本
+host, epg.112114.xyz, direct
+host, live.v1.mk, direct
+host, xy.xyxyxy.ml, direct
+host, ad.12306.cn, direct
+host, sdkapp.uve.weibo.com, direct
+
+# > local
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+ip-cidr, 224.0.0.0/24, direct
+ip-cidr, 182.254.116.0/24, direct
+
+host-suffix, c-ctrip.com, direct
+host-suffix, kuwo.cn, direct
+host-suffix, logcg.com, direct
+host-suffix, sonkwo.hk, direct
+host-suffix, fing.io, direct
+host-suffix, whatismyip.com, direct
+host-suffix, test-ipv6.com, direct
+host-suffix, zimuku.org, direct
+host-suffix, api.translate.zvo.cn, direct
 host-suffix, epg.112114.eu.org, direct
 host-suffix, aptvapp.com, direct
 host-suffix, chineseidcard.com, direct
 host-suffix, diyp.112114.xyz, direct
-host-suffix, sentry.io, reject
 host-suffix, live.goodiptv.club, direct
 host-suffix, bestvcdn.com.cn, direct
 host-suffix, catmjstudio.com, direct
+
+host-suffix, ohmygpt.com, proxy
+host-keyword, merlinblog, proxy
+
 #网易易盾号码认证
 host, ye.dun.163yun.com, reject
 
@@ -38,20 +62,4 @@ host, open.e.189.cn, reject
 
 #中国广电
 #host, Idk., reject
-host-suffix, c-ctrip.com, direct
-host-suffix, kuwo.cn, direct
-host, sdkapp.uve.weibo.com, direct
 host-suffix, u3.ucweb.com, reject
-host, amdc.m.taobao.com, direct
-host-suffix, logcg.com, direct
-host, epg.112114.xyz, direct
-host, live.v1.mk, direct
-host, xy.xyxyxy.ml, direct
-host-suffix, sonkwo.hk, direct
-host, amdc.m.taobao.com, reject
-host-suffix, fing.io, direct
-host-suffix, whatismyip.com, direct
-host, adashbc.ut.taobao.com, reject
-host-suffix, test-ipv6.com, direct
-host-suffix, zimuku.org, direct
-host-keyword, merlinblog, proxy
